@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #51d357;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h3>Tell us if you want any of our IT Services/Learning Courses</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Type your name here">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Type your last name here">
+
+    <label for="adress and city">Your Current Address and City</label>
+    <input type="text" id="adress and city" name="yourcurrentaddressandcity" placeholder="Enter your current address and city here">
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="select your state">Select your state</option>
+      <option value="andhra pradesh">Andhra Pradesh</option>
+      <option value="arunanchal pradesh">Arunanchal Prdesh</option>
+      <option value="assam">Assam</option>
+      <option value="bihar">Bihar</option>
+      <option value="chhattisgarh">Chhattisgarh</option>
+      <option value="goa">Goa</option>
+      <option value="gujarat">Gujarat</option>
+      <option value="haryana">Haryana</option>
+      <option value="himachal pradesh">Himachal Pradesh</option>
+      <option value="jammu and kashmir">Jammu and Kashmir</option>
+      <option value="jharkhand">Jharkhand</option>
+      <option value="karnataka">Karnataka</option>
+      <option value="kerala">Kerala</option>
+      <option value="madhya pradesh">Madhya Pradesh</option>
+      <option value="maharashtra">Maharashtra</option>
+      <option value="manipur">Manipur</option>
+      <option value="meghalaya">Meghalaya</option>
+      <option value="mizoram">Mizoram</option>
+      <option value="nagaland">Nagaland</option>
+      <option value="odisha">Odisha</option>
+      <option value="punjab">Punjab</option>
+      <option value="rajasthan">Rajasthan</option>
+      <option value="sikkim">Sikkim</option>
+      <option value="tamilnadu">Tamil Nadu</option>
+      <option value="telengana">Telengana</option>
+      <option value="tripura">Tripura</option>
+      <option value="uttar pradesh">Uttar Pradesh</option>
+      <option value="uttarakhand">Uttarakhand</option>
+      <option value="west bengal">West Bengal</option>
+    </select>
+
+    <label for="IT service/learning course you want">IT Service/Learning Course you want</label>
+    <select id="IT service you want" name="ITserviceyouwant">
+      <option value="select the IT service">Select the IT Service</option>
+      <option value="data security">Data Security</option>
+      <option value="cyber security">Cyber Security</option>
+      <option value="software development">Software Development</option>
+      <option value="cloud services">Cloud Services</option>
+      <option value="general technological services">General Technological Services</option>
+      <option value="none">None</option>
+    </select>
+    <select id="domain of learning course you want" name="domainoflearningcourseyouwant">
+      <option value="select domain of learning course you want">Select domain of Learning Course</option>
+      <option value="iot(internet of things)">IOT(Internet Of Things)</option>
+      <option value="ai(artificial intelligence)">AI(Artificial Intelligence)</option>
+      <option value="blockchain">Blockchain</option>
+      <option value="none">None</option>
+    </select>
+    <select id="package of IT Service/Learning Course you want" name="packageofITService/LearningCourseyouwant">
+      <option value="select package of IT service/learning course">Select package of IT Service/Learning Course</option>
+      <option value="premium">Premium</option>
+      <option value="standard">Standard</option>
+      <option value="basic">Basic</option>
+      <option value="none">None</option>
+    </select>
+
+    <label for="other related info regarding your need">Other related info regarding your need</label>
+    <textarea id="other related info regarding your need" name="other related info regarding your need" placeholder="Write it here" style="height:200px"></textarea>
+
+
+    <h3>Any Query/Suggestion you have</h3>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Type your name here">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Type your last name here">
+
+    <label for="adress and city">Your Current Address and City</label>
+    <input type="text" id="adress and city" name="yourcurrentaddressandcity" placeholder="Enter your currnt address and city here">
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="select your state">Select your state</option>
+      <option value="andhra pradesh">Andhra Pradesh</option>
+      <option value="arunanchal pradesh">Arunanchal Prdesh</option>
+      <option value="assam">Assam</option>
+      <option value="bihar">Bihar</option>
+      <option value="chhattisgarh">Chhattisgarh</option>
+      <option value="goa">Goa</option>
+      <option value="gujarat">Gujarat</option>
+      <option value="haryana">Haryana</option>
+      <option value="himachal pradesh">Himachal Pradesh</option>
+      <option value="jammu and kashmir">Jammu and Kashmir</option>
+      <option value="jharkhand">Jharkhand</option>
+      <option value="karnataka">Karnataka</option>
+      <option value="kerala">Kerala</option>
+      <option value="madhya pradesh">Madhya Pradesh</option>
+      <option value="maharashtra">Maharashtra</option>
+      <option value="manipur">Manipur</option>
+      <option value="meghalaya">Meghalaya</option>
+      <option value="mizoram">Mizoram</option>
+      <option value="nagaland">Nagaland</option>
+      <option value="odisha">Odisha</option>
+      <option value="punjab">Punjab</option>
+      <option value="rajasthan">Rajasthan</option>
+      <option value="sikkim">Sikkim</option>
+      <option value="tamilnadu">Tamil Nadu</option>
+      <option value="telengana">Telengana</option>
+      <option value="tripura">Tripura</option>
+      <option value="uttar pradesh">Uttar Pradesh</option>
+      <option value="uttarakhand">Uttarakhand</option>
+      <option value="west bengal">West Bengal</option>
+    </select>
+    <label for="type of query/suggestion">Type of Query/Suggestion</label>
+    <select id="type of query/suggestion" name="type of query/suggestion">
+      <option value="select type of query/suggestion">Select type of Query/Suggesstion</option>
+      <option value="regarding services of the company">Regarding IT services of the company</option>
+      <option value="regarding learning courses">Regarding learning courses</option>
+      <option value="regarding company's current projects">Regarding company's current projects</option>
+      <option value="other areas">Other areas</option>
+      <option value="no query/suggestion">No Query/Suggestion</option>
+    </select>
+
+    <label for="query/suggestion">Query/Suggestion</label>
+    <textarea id="query/suggestion" name="query/suggestion" placeholder="Write your query here" style="height:200px"></textarea>
+
+
+    <h3>Application Section</h3>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Type your name here">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Type your last name here">
+
+    <label for="adress and city">Your Current Address and City</label>
+    <input type="text" id="adress and city" name="yourcurrentaddressandcity" placeholder="Enter your current address and city here">
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="select your state">Select your state</option>
+      <option value="andhra pradesh">Andhra Pradesh</option>
+      <option value="arunanchal pradesh">Arunanchal Prdesh</option>
+      <option value="assam">Assam</option>
+      <option value="bihar">Bihar</option>
+      <option value="chhattisgarh">Chhattisgarh</option>
+      <option value="goa">Goa</option>
+      <option value="gujarat">Gujarat</option>
+      <option value="haryana">Haryana</option>
+      <option value="himachal pradesh">Himachal Pradesh</option>
+      <option value="jammu and kashmir">Jammu and Kashmir</option>
+      <option value="jharkhand">Jharkhand</option>
+      <option value="karnataka">Karnataka</option>
+      <option value="kerala">Kerala</option>
+      <option value="madhya pradesh">Madhya Pradesh</option>
+      <option value="maharashtra">Maharashtra</option>
+      <option value="manipur">Manipur</option>
+      <option value="meghalaya">Meghalaya</option>
+      <option value="mizoram">Mizoram</option>
+      <option value="nagaland">Nagaland</option>
+      <option value="odisha">Odisha</option>
+      <option value="punjab">Punjab</option>
+      <option value="rajasthan">Rajasthan</option>
+      <option value="sikkim">Sikkim</option>
+      <option value="tamilnadu">Tamil Nadu</option>
+      <option value="telengana">Telengana</option>
+      <option value="tripura">Tripura</option>
+      <option value="uttar pradesh">Uttar Pradesh</option>
+      <option value="uttarakhand">Uttarakhand</option>
+      <option value="west bengal">West Bengal</option>
+    </select>
+
+    <label for="post">Job Post you want to apply for</label>
+    <select id="post" name="post">
+      <option value="select the job post">Select the job post</option>
+      <option value="as an intern">As an Intern</option>
+      <option value="junior developer">Junior Developer</option>
+      <option value="assistant developer">Assistant Developer</option>
+      <option value="project lead">Project Lead</option>
+      <option value="educator">Educator</option>
+      <option value="none">None</option>
+    </select>
+    
+    <label for="your educational qualifications">Your Educational Qualifications</label>
+    <textarea id="your educational qualifications" name="your educational qualifications" placeholder="Write your educational qualifications here" style="height:200px"></textarea>
+    
+    <label for="work experiences">Past Work Experiences</label>
+    <textarea id="work experiences" name="work experiences" placeholder="Write your past work experiences here" style="height:200px"></textarea>
+
+    <label for="about yourself">About Yourself</label>
+    <textarea id="about yourself" name="about yourself" placeholder="Write it here" style="height:200px"></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
